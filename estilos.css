@@ -1,0 +1,70 @@
+body{
+	display: flex;
+}
+.pokemon{
+	background-color:white;
+	width: 350px;
+	height: 550px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 20px;
+	border: 2px solid black;
+	cursor:pointer;
+	margin: 50px;
+
+}
+	.pokemon h1{
+	font-family: 'Open Sans', sans-serif;
+	}
+	.pokemon:hover{
+		transform:scale(1.1, 1.1);
+		transition: 0.3s;
+	}		
+	.pokemon-banner{
+		border-radius: 18px 18px 0 0;
+	}
+	.box-top{
+		margin-right: -10px;
+	}
+	.circle img{
+		border-radius: 250px;
+		margin-top: -90px;
+	}
+.tipo{
+	height: 35px;
+	width: 110px;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 1.5em;
+	color: white;
+	font-family: 'AR One Sans', sans-serif;
+}
+.box-bottom{
+	display: flex;
+	text-align: center;
+	margin-top: 20px;
+}
+	.box-bottom b{
+		margin: 70px 0px;
+		font-size: 1.3em;
+		font-family: 'Roboto Mono', monospace;
+	}	
+	.box-bottom p{
+		font-size: 1.3em;
+		margin: 5px 35px ;
+		background-color: #888;
+		color:white;
+		padding-top: 5px;
+		width: 55px;
+		height: 30px;
+		border-radius: 40px;
+		text-align: center;
+		font-family: "arial";
+	}	
+.box-final{
+	width: 350px;
+	height: 350px;
+	margin-top: 20px;
+	border-radius: 0 0 17px 17px;
+}	
